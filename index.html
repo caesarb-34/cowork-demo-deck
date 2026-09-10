@@ -116,6 +116,14 @@ h2{font-family:Newsreader,Georgia,serif;font-weight:600;font-size:46px;line-heig
   font-family:Newsreader,Georgia,serif;font-size:27px;font-weight:600;}
 :root[data-theme="dark"] .banner{background:var(--accent);color:#14173a;}
 
+.coming{margin-top:26px;}
+.coming .label{font-size:13px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--accent-on-dark);margin:0 0 14px;}
+.ftiles{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:1020px;}
+.ftile{background:rgba(255,255,255,.075);border-radius:10px;padding:22px 26px;}
+.ftile h4{font-family:Newsreader,Georgia,serif;font-size:22px;font-weight:600;margin:0 0 8px;
+  color:var(--feature-ink);line-height:1.15;}
+.ftile p{margin:0;font-size:15px;color:var(--feature-sub);opacity:.85;line-height:1.4;}
 .link-lg{font-size:19px;font-weight:600;color:var(--accent-on-dark);word-break:break-all;margin:6px 0 0;}
 
 /* controls */
@@ -423,10 +431,31 @@ Park anything deep — offer to take it after the call rather than losing the ro
 <section class="slide feature">
   <div class="blob" style="width:460px;height:460px;right:-140px;bottom:-150px"></div>
   <h1 class="big">Thank You</h1>
-  <p class="standfirst" style="margin-top:30px;font-size:17px;opacity:.85">Slides and handout:</p>
+  <div class="coming">
+    <p class="label">Coming up</p>
+    <div class="ftiles">
+      <div class="ftile">
+        <h4>Prompt Mastery and Token Optimization</h4>
+        <p>Getting more out of fewer words — and why that matters for cost and quality</p>
+      </div>
+      <div class="ftile">
+        <h4>AI Models: differences and when to use</h4>
+        <p>Which model for which job, and how to tell without guessing</p>
+      </div>
+    </div>
+  </div>
+  <p class="standfirst" style="margin-top:28px;font-size:16px;opacity:.8">Slides and handout:</p>
   <p class="link-lg">docs.google.com/presentation/d/1pi350dfNijqwgVlyheAt4ek6KKPK4FDyDvQDSTcJTU0</p>
   <p class="byline">Caesar Bernardo &nbsp;|&nbsp; September 2026</p>
   <script type="text/plain" class="note">Drop the link in chat one more time as you land on this slide — people join late and leave early.
+
+FUTURE TOPICS — say these out loud, they're the hook for the next session:
+
+"Prompt Mastery and Token Optimization" — why the same request phrased two ways costs different amounts and returns different quality. Context windows, what actually eats tokens, and how to stop paying for repetition.
+
+"AI Models: differences and when to use" — there's no single best model. Reasoning vs speed vs cost, when a smaller model is the right call, and how to pick without taking anyone's word for it.
+
+Ask who wants to present one of these — a rotating group only works if people volunteer early. If someone bites, get the date on the calendar before the call ends.
 
 Last line: "In two weeks I want to hear what broke, not what worked. The failures are more useful to this group than the wins."
 
